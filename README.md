@@ -28,17 +28,29 @@ Note: We recommend you to use
 Usage : To initiate our library, place the below code at initial activity of your application(ex: splash activity).
 
 GeneApp.initialize(MainActivity.this, "YOUR_API_KEY",  "USER_GOOGLE_ADVERTISER_ID");
+
         GeneApp.start("testing transaction");
+        
         GeneApp.age("26", "number");
+        
         GeneApp.gender("male", "String");
+        
         GeneApp.locationCity("hyderabad", "String");
+        
         GeneApp.locationState("telengana", "String");
+        
         GeneApp.locationCountry("India", "String");
+        
         GeneApp.zipcode("500090", "number");
+        
         GeneApp.addtrait("from", "hyderabad", "string");
+        
         GeneApp.addtrait("to", "vijayawada", "string");
+        
         GeneApp.addtrait("b_date", "30-05-2019", "date");
+        
         GeneApp.addtrait("b_time", "123123123", "number");
+        
         GeneApp.send();
 ```
 context -> your application context
